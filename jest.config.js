@@ -34,10 +34,6 @@ module.exports = {
         outputName: 'junit.xml',
       },
     ],
-  ],
-  // TODO: enable resetMocks
-  // resetMocks: true,
-  restoreMocks: true,
   setupFiles: ['<rootDir>/test/setup.js', '<rootDir>/test/env.js'],
   setupFilesAfterEnv: ['<rootDir>/test/jest/setup.js'],
   testMatch: [
