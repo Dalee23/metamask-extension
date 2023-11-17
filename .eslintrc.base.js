@@ -21,6 +21,16 @@ module.exports = {
       'error',
       'always',
       {
+        rules: {
+    'default-param-last': 'off',
+    'prefer-object-spread': 'error',
+    'require-atomic-updates': 'off',
+
+    // This is the same as our default config, but for the noted exceptions
+    'spaced-comment': [
+      'error',
+      'always',
+      {
         markers: [
           'global',
           'globals',
