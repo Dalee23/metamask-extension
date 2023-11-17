@@ -30,6 +30,19 @@ module.exports = {
     'spaced-comment': [
       'error',
       'always',
+
+         // TODO: remove this override
+    'padding-line-between-statements': [
+      'error',
+      {
+        blankLine: 'always',
+        prev: 'directive',
+        next: '*',
+      },
+      {
+        blankLine: 'any',
+        prev: 'directive',
+        next: 'directive',
       {
         markers: [
           'global',
